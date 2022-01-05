@@ -7,7 +7,7 @@
 - [Problems & Hurdles](#Problems-&-Hurdles)
   * [Logistical Roadblock](#Logistical-Roadblock)
   * [Getting the Data](#Getting-the-Data)
- - [Link to the Dashboard](#Link-to-the-Dashboard)
+ - [Link to the Presentation & Dashboard](#Link-to-the-Dashboard)
 
 
 ##Motivation
@@ -37,3 +37,8 @@ Unfortunately, privately run prisons do not take funding from the federal govern
 In many ways, one of the most challenging aspects of this project wasn't finding the data but pulling and compiling the data in such a way that it would be useable. There are many organizations that are tracking COVID within prisons across the country. Unfortunately, much of their data is incomplete, given that they only have access to jurisdictional data or to the data in the state they reside in. In search of data I came across the Marshall Project and the UCLA School of Law. Both programs had been pulling data straight from the DOC in order to keep track of numbers. Pulling their repositories from GitHub, cleaning, and merging them together via Python I was able to compile a relatively complete look at the rates of COVID within many prison sites across the country.
 
 I wanted to add an additional level of context, about the nation as a whole, as well as supplement the readily available data and check that the numbers I was pulling in were right. As such, I also went through a round of webscraping to pull in data from the CDC as well as the COVID Prison Project. This data bases were pulled and cleaned using Beautiful Soup, which allowed me to turn them into nice Pandas Dataframes and then export them into Power BI as I did the rest of my data.
+
+##Link to Presentation & Dashboard
+
+https://docs.google.com/presentation/d/1VMUeFhUzx4-4WKXiLW9Yv8auZ82fm5xZPc9j9PijVVI/edit?usp=sharing
+https://app.powerbi.com/groups/me/reports/c04b6dc1-321a-40e9-911f-07f51d5bb2e9/ReportSection17b1626cbd8ea6a9aa1d
